@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-confirmation-code-field/esm/useClearByFocusCell.js b/node_modules/react-native-confirmation-code-field/esm/useClearByFocusCell.js
+index 15a9c4d..ddc7346 100644
+--- a/node_modules/react-native-confirmation-code-field/esm/useClearByFocusCell.js
++++ b/node_modules/react-native-confirmation-code-field/esm/useClearByFocusCell.js
+@@ -22,7 +22,7 @@ const useClearByFocusCell = (options) => {
+     if (index !== -1) {
+       const {value, setValue} = valueRef.current;
+       const text = (value || '').slice(0, index);
+-      setValue(text);
++      // setValue(text);
+     }
+   };
+   const getCellOnLayoutHandler = (index) => (event) => {

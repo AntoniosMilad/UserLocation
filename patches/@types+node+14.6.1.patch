@@ -1,0 +1,12 @@
+diff --git a/node_modules/@types/node/globals.d.ts b/node_modules/@types/node/globals.d.ts
+index ab523fe..f365eb0 100644
+--- a/node_modules/@types/node/globals.d.ts
++++ b/node_modules/@types/node/globals.d.ts
+@@ -457,6 +457,7 @@ declare namespace NodeJS {
+     interface ReadWriteStream extends ReadableStream, WritableStream { }
+ 
+     interface Global {
++        AppLanguage: typeof String;
+         Array: typeof Array;
+         ArrayBuffer: typeof ArrayBuffer;
+         Boolean: typeof Boolean;
